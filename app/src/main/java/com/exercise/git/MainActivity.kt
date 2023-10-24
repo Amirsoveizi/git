@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
 
         var txt = this.findViewById<EditText>(R.id.UserName).text
 
-        Toast.makeText(applicationContext,"WelCome ${txt}", Toast.LENGTH_LONG).show()
+        Toast.makeText(applicationContext,"WelCome dear ${txt}", Toast.LENGTH_LONG).show()
     }
 
 }
